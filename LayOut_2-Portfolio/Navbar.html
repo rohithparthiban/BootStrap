@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <style>
+        .txt h1 {
+            border: 2px solid #4b6cc1;
+            padding: 10px;
+            color: white;
+        }
+
+        .box {
+            height: 100vh;
+            background-color: #191a1d;
+            /* background-size: cover; */
+        }
+
+        .box span {
+            color: #4b6cc1;
+        }
+
+        .box button {
+            width: 150px;
+            padding: 15px;
+        }
+
+        .box h3 {
+            color: #9aa5b1;
+        }
+        .image img{
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-gradient">
+        <div class="container-fluid">
+            <a class="navbar-brand txt" href="#">
+                <h1>J.</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-2">
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-2" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-2" href="#">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-2" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-2" href="#">Recent Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-2" href="#">Testimonial</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fuild" style="overflow-x: hidden;">
+        <div class="row box">
+            <div class="col-12 col-md-6 p-5 d-flex flex-column justify-content-center text-white order-2 order-md-1">
+                <h1>Hey, I am <span>Jenny</span></h1><br>
+                <h3>I am a Fronted Developer & Mentor.</h3><br>
+                <button type="button" class="btn btn-primary">Contact Me</button>
+            </div>
+            <div class="col-12 col-md-5 d-flex flex-column justify-content-center image order-1 order-md-2 ms-3 text-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-banner-img.png">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
